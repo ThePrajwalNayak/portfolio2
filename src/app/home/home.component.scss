@@ -1,0 +1,83 @@
+@import '~_variable.scss';
+.wrapper {
+  header {
+    width: 100%;
+    height: 100vh;
+    background: url('/assets/images/screen1.jpg') no-repeat 50% 50%;
+    background-size: cover;
+    nav {
+      position: fixed;
+      width: 100%;
+      .menu-icon {
+        width: 100%;
+        background: map-get($home-component, menuicon-background-color);
+        text-align: right;
+        box-sizing: border-box;
+        cursor: pointer;
+        display: none;
+        color: map-get($home-component, menuicon-color);
+      }
+      .logo {
+        position: fixed;
+        float: left;
+        margin: 16px 32px;
+        color: map-get($home-component, logo-color);
+      }
+      ul {
+        // background: map-get($home-component,navigation-backgrount-color );
+        list-style: none;
+        color: map-get($home-component, navigation-color);
+        padding: 0 0 0 50%;
+        text-align: center;
+        margin: 0;
+        transition: 1s;
+        li {
+          display: inline-block;
+          padding: 20px;
+          a {
+            text-decoration: none;
+            color: map-get($home-component, navigation-color);
+          }
+        }
+      }
+    }
+    nav.black ul {
+      background: #000;
+    }
+  }
+}
+
+@media (max-width: 580px) {
+  nav {
+    .showing {
+      max-height: 20em;
+    }
+    .hideList {
+      display: none !important;
+    }
+    .menu-icon {
+      display: block !important;
+    }
+    .logo {
+      position: fixed;
+      top: 0;
+      margin-top: 16px;
+    }
+    ul {
+      padding-left: 0 !important;
+      margin-left: auto !important;
+      max-height: 0px;
+      background: map-get($home-component, navigation-backgrount-color);
+      li {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 24px 0;
+        text-align: center;
+      }
+    }
+  }
+  nav.black ul {
+    background: #000;
+  }
+}
+

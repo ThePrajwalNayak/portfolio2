@@ -1,0 +1,26 @@
+<div class="wrapper">
+  <header>
+    <nav>
+      <div class="menu-icon" (click)="clickEvent()">
+        <i class="fa fa-bars fa-2s"></i>
+      </div>
+      <div class="logo">
+        Prajwal Nayak
+      </div>
+      <div class="menu">
+        <ul [ngClass]="status ? 'showing' : ''">
+          <li [ngClass]=" hideList? 'hideList' : ''"><a href="">Home</a></li>
+          <li [ngClass]=" hideList? 'hideList' : ''"><a href="">Skills</a></li>
+          <li [ngClass]=" hideList? 'hideList' : ''"><a href="">About Me</a></li>
+          <li [ngClass]=" hideList? 'hideList' : ''"><a href="">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <div class="content">
+    <p>There is no Internet connection</p>
+    <p>There is no Internet connection</p>
+    <p>There is no Internet connection</p>
+    <p>There is no Internet connection</p>
+  </div>
+</div>
