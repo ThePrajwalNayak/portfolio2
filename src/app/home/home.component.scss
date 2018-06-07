@@ -12,6 +12,7 @@
       width: 100%;
       .menu-icon {
         width: 100%;
+        height: 50px;
         background: map-get($home-component, menuicon-background-color);
         text-align: right;
         box-sizing: border-box;
@@ -167,6 +168,7 @@
       nav {
         .showing {
           max-height: 20em;
+          padding: 20px 0;
         }
         .hideList {
           display: none !important;
@@ -174,11 +176,16 @@
         .menu-icon {
           display: block !important;
           color: map-get($home-component, navigation-backgrount-color-responsive);
+          i{
+            margin: 10px 15px 0 0;
+            font-size: 20px;
+          }
         }
         .logo {
           position: fixed;
           top: 0;
-          margin-top: 16px;
+          margin-top: 10px;
+          font-size: 18px;
           color: map-get($home-component, navigation-backgrount-color-responsive);
         }
         ul {
@@ -188,9 +195,11 @@
           background: map-get($home-component, navigation-backgrount-color);
           li {
             box-sizing: border-box;
-            width: 100%;
-            padding: 24px 0;
+            width: 80%;
+            padding: 12px 0;
             text-align: center;
+            border-bottom: 1px solid #FFF;
+            margin: 0 auto;
             a {
               color: map-get($home-component, navigation-backgrount-color-responsive);
             }
