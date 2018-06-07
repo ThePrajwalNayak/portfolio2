@@ -1,10 +1,12 @@
 @import '~_variable.scss';
 .wrapper {
+  font-family: 'Open Sans', sans-serif;
   header {
     width: 100%;
     height: 100vh;
-    background: url('/assets/images/screen1.jpg') no-repeat 50% 50%;
+    background: url('/assets/images/screen5.jpg') no-repeat 50% 50%;
     background-size: cover;
+    display: table;
     nav {
       position: fixed;
       width: 100%;
@@ -45,39 +47,162 @@
       background: #000;
     }
   }
-}
-
-@media (max-width: 580px) {
-  nav {
-    .showing {
-      max-height: 20em;
-    }
-    .hideList {
-      display: none !important;
-    }
-    .menu-icon {
-      display: block !important;
-    }
-    .logo {
-      position: fixed;
-      top: 0;
-      margin-top: 16px;
-    }
-    ul {
-      padding-left: 0 !important;
-      margin-left: auto !important;
-      max-height: 0px;
-      background: map-get($home-component, navigation-backgrount-color);
-      li {
-        box-sizing: border-box;
-        width: 100%;
-        padding: 24px 0;
-        text-align: center;
+  .skils {
+    padding: 100px 0; //background-color: #8C43FF;
+    background-color: map-get($skill-component, section-background);
+    overflow: auto;
+    .skilsItems {
+      width: 80%;
+      margin: 0 auto;
+      article {
+        width: 50%;
+        float: left;
+        height: 200px;
+        #fontend {}
+        #backend {}
+        #database {}
+        #others {}
+        .skilsImage {
+          width: 128px;
+          height: 128px;
+          float: left;
+          margin: 20px 20px 0 20px;
+        }
+        .skillHeading {
+          letter-spacing: 1px;
+          color: map-get($skill-component, skillHeading);
+        }
+        .skillInfo {
+          letter-spacing: 1px;
+          color: map-get($skill-component, skillInfo);
+        }
       }
     }
   }
-  nav.black ul {
-    background: #000;
+  .aboutMe {
+    height: 600px;
+    background-color: green;
+    #myInfoL {
+      height: 600px;
+      float: left;
+      width: 40%;
+      background-color: red;
+      img {
+        border-radius: 50%;
+        display: block;
+        margin: 0 auto;
+        transform: scale(0.8);
+      } // height: 100%;
+      //width: auto;
+      //float: left;
+    }
+    #myInfoR {
+      height: 600px;
+      float: right;
+      width: 60%;
+      padding: 54px 100px 0 0;
+      background-color: yellow;
+    }
+  }
+  .contact {
+    margin-top: -200px;
+    height: 400px; //background-color: #8C43FF;
+    background-color: map-get($contact-component, contact-background);
+    #wrapper {
+      width: 50%;
+      margin: 200px auto;
+      .socialMedia {
+        width: 50%;
+        margin: 0 auto;
+        .fa {
+          padding: 20px;
+          font-size: 30px;
+          width: 70px;
+          text-align: center;
+          text-decoration: none;
+          margin: 5px 2px;
+        }
+        .fa:hover {
+          opacity: 0.7;
+        }
+        .fa-github {
+          background: #634f48;
+          color: white;
+        }
+        .fa-twitter {
+          background: #55ACEE;
+          color: white;
+        }
+        .fa-google-plus {
+          background: #dd4b39;
+          color: white;
+        }
+        .fa-linkedin {
+          background: #007bb5;
+          color: white;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 580px) {
+  .wrapper {
+    header {
+      background: url('/assets/images/screen10.jpg') no-repeat 50% 50%;
+      width: 100%;
+      height: 100vh;
+      background-size: cover;
+      nav {
+        .showing {
+          max-height: 20em;
+        }
+        .hideList {
+          display: none !important;
+        }
+        .menu-icon {
+          display: block !important;
+          color: map-get($home-component, navigation-backgrount-color-responsive);
+        }
+        .logo {
+          position: fixed;
+          top: 0;
+          margin-top: 16px;
+          color: map-get($home-component, navigation-backgrount-color-responsive);
+        }
+        ul {
+          padding-left: 0 !important;
+          margin-left: auto !important;
+          max-height: 0px;
+          background: map-get($home-component, navigation-backgrount-color);
+          li {
+            box-sizing: border-box;
+            width: 100%;
+            padding: 24px 0;
+            text-align: center;
+            a {
+              color: map-get($home-component, navigation-backgrount-color-responsive);
+            }
+          }
+        }
+      }
+      nav.black ul {
+        background: #000;
+      }
+    }
+    .skils {
+      padding: 50px 0;
+      .skilsItems {
+        width: 90%;
+        article {
+          width: 100%;
+          #fontend {}
+          #backend {}
+          #database {}
+          #others {}
+        }
+      }
+    }
   }
 }
 

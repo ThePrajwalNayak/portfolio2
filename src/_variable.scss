@@ -1,8 +1,23 @@
 $home-component : (
-    menuicon-color : #FFF,
+  //  menuicon-color : #FFF,
+   menuicon-color : #000,
     menuicon-background-color : #000,
-    logo-color : #FFF,
+    //logo-color : #FFF,
+    logo-color : #000,
     logo-background-color : #000,
-    navigation-color : #FFF,
-    navigation-backgrount-color : #000
+  //  navigation-color : #FFF,
+   navigation-color : #000,
+    navigation-backgrount-color : #000,
+    navigation-backgrount-color-responsive : #FFF
 );
+
+$skill-component : (
+    section-background : #1A1A1D,
+    skillHeading : #FFF,
+    skillInfo : #FFF
+);
+
+$contact-component : (
+    contact-background : #1A1A1D
+)
+
