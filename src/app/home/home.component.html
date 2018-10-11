@@ -10,16 +10,16 @@
       <div class="menu">
         <ul [ngClass]="status ? 'showing' : ''">
           <li [ngClass]=" hideList? 'hideList' : ''"><a href="">Home</a></li>
-          <li [ngClass]=" hideList? 'hideList' : ''"><a href="">Projects</a></li>
-          <li [ngClass]=" hideList? 'hideList' : ''"><a href="">Skills</a></li>
-          <li [ngClass]=" hideList? 'hideList' : ''"><a href="">About Me</a></li>
-          <li [ngClass]=" hideList? 'hideList' : ''"><a href="">Contact</a></li>
+          <li [ngClass]=" hideList? 'hideList' : ''"><a pageScroll href="#projects">Projects</a></li>
+          <li [ngClass]=" hideList? 'hideList' : ''"><a pageScroll href="#skils">Skills</a></li>
+          <li [ngClass]=" hideList? 'hideList' : ''"><a pageScroll href="#aboutMe">About Me</a></li>
+          <li [ngClass]=" hideList? 'hideList' : ''"><a pageScroll href="#contact">Contact</a></li>
         </ul>
       </div>
     </nav>
   </header>
- <Section class="quotes"></Section>
- <Section class="skils">
+ <Section class="projects" id="projects"></Section>
+ <Section class="skils" id="skils">
    <section class="skilsItems">
       <article id="fontend">
         <img class="skilsImage" src="assets/images/frontend.png"/>
@@ -44,7 +44,7 @@
       </article>
    </section>
  </Section>
- <Section class="aboutMe">
+ <Section class="aboutMe" id="aboutMe">
     <div id="myInfoL">
            <img src="assets/images/myPhoto.jpg"/>
     </div>
@@ -55,7 +55,7 @@
        <p>I enjoy each aspect, and love building web sites & web apps from start to finish.</p>
     </div>
  </Section>
- <Section class="contact">
+ <Section class="contact" id="contact">
    <div id="wrapper">
    <p>To Finish a Job, First Begin</p> 
    <div class="socialMedia">
