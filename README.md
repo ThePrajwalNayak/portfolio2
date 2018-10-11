@@ -2,6 +2,25 @@
 
 Demo - https://theprajwalnayak.github.io/Website-PortfolioV2/
 
+## Screen Shots
+
+### Landing Page
+![](./ScreenShots/Landing%20Page.png)
+
+---
+
+### About Me
+![](./ScreenShots/About%20Me.png)
+
+---
+
+### My Skilss
+![](./ScreenShots/My%Skills.png)
+
+---
+
+### Our Client
+
 
 ## Development server
 
