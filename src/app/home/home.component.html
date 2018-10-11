@@ -10,6 +10,7 @@
       <div class="menu">
         <ul [ngClass]="status ? 'showing' : ''">
           <li [ngClass]=" hideList? 'hideList' : ''"><a href="">Home</a></li>
+          <li [ngClass]=" hideList? 'hideList' : ''"><a href="">Projects</a></li>
           <li [ngClass]=" hideList? 'hideList' : ''"><a href="">Skills</a></li>
           <li [ngClass]=" hideList? 'hideList' : ''"><a href="">About Me</a></li>
           <li [ngClass]=" hideList? 'hideList' : ''"><a href="">Contact</a></li>
@@ -21,24 +22,25 @@
  <Section class="skils">
    <section class="skilsItems">
       <article id="fontend">
-        <img class="skilsImage" src="assets/images/frontSkill.png"/>
+        <img class="skilsImage" src="assets/images/frontend.png"/>
         <h1 class="skillHeading">Front End</h1>
         <p class="skillInfo">Angularjs, Angular5, Ionic Framework, HTML5, CSS3, Bootstrap, CSS Preprocessing, Responsive Design, Protractor, Browser Developer Tools</p>
       </article>
       <article id="backend">
-        <img class="skilsImage" src="assets/images/backSkill.png"/>
+        <img class="skilsImage" src="assets/images/backend.png"/>
         <h1 class="skillHeading">Back End</h1>
-        <p class="skillInfo">Java, Spring, Micro Services, Rest Service, Srping Boot, ORM, Junit, Maven</p>
+        <p class="skillInfo">Java, Micro Services, REST API, Spring MVC, Srping Boot, ORM, Maven</p>
       </article>
       <article id="database">
-        <img class="skilsImage" src="assets/images/dataBaseServerSkill.png"/>
+        <img class="skilsImage" src="assets/images/database.png"/>
+        <!--<img class="skilsImage" src="assets/images/dataBaseServerSkill.png"/>-->
         <h1 class="skillHeading">Database and Servers</h1>
-        <p class="skillInfo">Oracle DB, SQL Query Language, Tomcat Server, Shell Script</p>
+        <p class="skillInfo">Oracle DB, SQL, Shell Script, Linux, Tomcat Server</p>
       </article>
       <article id="others">
-        <img class="skilsImage" src="assets/images/otherSkill.png"/>
+        <img class="skilsImage" src="assets/images/other.png"/>
         <h1 class="skillHeading">Others</h1>
-        <p class="skillInfo">Git, Jenkins, Swagger Documentation with YML</p>
+        <p class="skillInfo">Git, Jenkins, Swagger Documentation, JUnit, Karma, Protractor</p>
       </article>
    </section>
  </Section>
