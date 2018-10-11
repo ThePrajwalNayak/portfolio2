@@ -14,12 +14,8 @@ Demo - https://theprajwalnayak.github.io/Website-PortfolioV2/
 
 ---
 
-### My Skilss
+### My Skills
 ![](./ScreenShots/My%20Skills.png)
-
----
-
-### Our Client
 
 
 ## Development server
