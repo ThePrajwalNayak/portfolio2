@@ -15,7 +15,7 @@ Demo - https://theprajwalnayak.github.io/Website-PortfolioV2/
 ---
 
 ### My Skilss
-![](./ScreenShots/My%Skills.png)
+![](./ScreenShots/My%20Skills.png)
 
 ---
 
