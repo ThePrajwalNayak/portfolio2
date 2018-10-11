@@ -1,4 +1,4 @@
-<div class="wrapper">
+<div class="wrapper" id="wrapper">
   <header>
     <nav>
       <div class="menu-icon" (click)="clickEvent()">
@@ -9,7 +9,7 @@
       </div>
       <div class="menu">
         <ul [ngClass]="status ? 'showing' : ''">
-          <li [ngClass]=" hideList? 'hideList' : ''"><a href="">Home</a></li>
+          <li [ngClass]=" hideList? 'hideList' : ''"><a pageScroll href="#wrapper">Home</a></li>
           <li [ngClass]=" hideList? 'hideList' : ''"><a pageScroll href="#projects">Projects</a></li>
           <li [ngClass]=" hideList? 'hideList' : ''"><a pageScroll href="#skils">Skills</a></li>
           <li [ngClass]=" hideList? 'hideList' : ''"><a pageScroll href="#aboutMe">About Me</a></li>
