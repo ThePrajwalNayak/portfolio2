@@ -17,6 +17,17 @@ Demo - https://theprajwalnayak.github.io/Website-PortfolioV2/
 ### My Skills
 ![](./ScreenShots/My%20Skills.png)
 
+### Responsive Landing Page
+![](./ScreenShots/Landing%20Page%20Mobile.png)
+
+### Responsive About Me
+![](./ScreenShots/About%20Me%20Mobile.png)
+
+### Responsive Navigation
+![](./ScreenShots/Navigation2%0Mobile.png)s
+
+### Responsive Contact Me
+![](./ScreenShots/Contact%20Me%20Mobile.png)
 
 ## Development server
 
