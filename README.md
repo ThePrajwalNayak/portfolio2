@@ -24,7 +24,7 @@ Demo - https://theprajwalnayak.github.io/Website-PortfolioV2/
 ![](./ScreenShots/About%20Me%20Mobile.png)
 
 ### Responsive Navigation
-![](./ScreenShots/Navigation2%0Mobile.png)s
+![](./ScreenShots/Navigation%20Mobile.png)
 
 ### Responsive Contact Me
 ![](./ScreenShots/Contact%20Me%20Mobile.png)
