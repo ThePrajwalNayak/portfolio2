@@ -55,6 +55,12 @@
     width: 100%;
     .title {
       text-align: center;
+      position: relative;
+      top: -100px;
+      font-weight: bolder;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-size: 42px;
     }
     .viewMore {
       border: 1px solid #ccc;
