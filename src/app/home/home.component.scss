@@ -29,6 +29,7 @@
         color: map-get($home-component, menuicon-color);
       }
       .logo {
+        cursor: pointer;
         position: fixed;
         float: left;
         margin: 16px 32px;
